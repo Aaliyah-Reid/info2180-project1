@@ -139,6 +139,13 @@ nav ul li a:hover{
     background-color: #296d45;
 }
 
+.stories article{
+    display: flex;
+    gap: 40px;
+    margin: 50px auto;
+}
+
+
 
 .stories img{
     width: 200px;
@@ -147,6 +154,22 @@ nav ul li a:hover{
     object-fit: fill;
 }
 
+
+
+.stories h2,a{
+    color: #5A67D8;
+    
+}
+
+.stories a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.stories h3{
+    font-size: 18px;
+}
 
 .newsletter{
     background-color: #48BB78;
@@ -164,10 +187,10 @@ nav ul li a:hover{
 }
     
 
-h3,p{
+.newsletter h3,p{
     padding:5px;
     margin:0;
-}
+} 
 
 form {
     display: flex;
